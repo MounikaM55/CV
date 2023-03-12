@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact details</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>2404 Nutwood Ave</p>
+    <p>Apt C10, Fullerton</p>
+    <p>mounikamaram55@gmail.com</p>
+    <p>my phone number</p>
+    <hr>
+    <form  action="mailto:mounikamaram55@gmail.com" method = "post" enctype="text/plain"> <!--action is after submitting what it should do ? email and post it, enctype: how your message is being posted-->
+        <label>Your Name:</label>
+        <input type="text" name="Your name"> <br><!--there were many options on input: check mdn-->
+        <label>Your Email:</label>
+        <input type="email" name="Your email"><br> <!--name : tells what is inside the text and checks for basic validation-->
+        <label for="">Your message:</label><br>
+        <textarea name="Your message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
